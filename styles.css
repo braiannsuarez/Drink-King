@@ -204,7 +204,7 @@ justify-content: flex-start;
 .articulo-hijo {
 	width: 200px;
 	height: 200px;
-	background: white;
+	background: white; ;
 	border: 1px solid black;
 	margin: 24px ;
 	text-align: center;
