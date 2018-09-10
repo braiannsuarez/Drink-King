@@ -119,10 +119,14 @@ header img {
 .contacto {
 	background-color: #ffffffc9;
 	position: relative;
-	top: -68px;
+	top: -70px;
 	padding: 12px 0px;
 	border-radius: 20px 20px 0 0;
 	text-align: center;
+}
+
+.contacto div strong {
+	display: inline-block;
 }
 
 .contacto div {
@@ -200,9 +204,29 @@ justify-content: flex-start;
 .articulo-hijo {
 	width: 200px;
 	height: 200px;
-	background: grey;
+	background: white;
 	border: 1px solid black;
 	margin: 24px ;
+	text-align: center;
+}
+
+.articulo-hijo a {
+	color: grey;
+}
+
+.articulo-hijo div {
+	margin: 5px;
+}
+
+.articulo-hijo strong {
+	background-color: blue;
+	margin: 0 70px;
+	color: white;
+	border-radius: 5px;
+}
+
+.articulo-hijo a, div, strong {
+	display: block;
 }
 
 .footer {
